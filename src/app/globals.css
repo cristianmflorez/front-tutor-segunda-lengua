@@ -1,0 +1,70 @@
+.form-control-chat:focus {
+  box-shadow: none !important;
+}
+
+@media (min-height: 100px){
+    .h-chat {
+        height: 90vh !important;
+    }
+
+    .h-header {
+        height: 10vh !important;
+    }
+
+    .h-history {
+        max-height: 61vh !important;
+    }
+
+    .h-chats {
+        max-height: 58vh !important;
+    }
+}
+
+@media (min-height: 600px){
+    .h-history {
+        max-height: 66vh !important;
+    }
+
+    .h-chats {
+        max-height: 63vh !important;
+    }
+}
+
+@media (min-height: 1500px){
+    .h-chat {
+        height: 92vh !important;
+    }
+
+    .h-header {
+        height: 6vh !important;
+    }
+}
+
+/* @media (min-width: 768px){
+    .h-chat {
+        height: 90vh !important;
+    }
+    .h-chat-box {
+        height: 65vh !important;
+    }
+
+    .h-history-box {
+        height: 70vh !important;
+    }
+} */
+
+.message-box {
+    max-width: 75%;
+}
+
+.bg {
+    background-image: url('../../public/bg.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.bgchat {
+    background-image: url('../../public/bgchat.jpg');
+    background-size: contain;
+    background-repeat: repeat;
+}
