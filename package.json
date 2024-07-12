@@ -1,0 +1,23 @@
+{
+  "name": "front-tutor-segunda-lengua",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@sweetalert2/theme-bootstrap-4": "^5.0.16",
+    "bootstrap": "^5.3.3",
+    "next": "13.4.19",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.10.2",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.51.3",
+    "react-icons": "^5.0.1",
+    "sweetalert2": "^11.10.7",
+    "sweetalert2-react-content": "^5.0.7"
+  }
+}
